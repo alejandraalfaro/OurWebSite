@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "GulyV KonCept"
+    brand = "GulOV KonCept"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     #services = "Services"
@@ -77,7 +77,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "La tienda en línea de Costa Rica"
     subtitle = "Bienvenido"
-    buttonText = "Tell me more"
+    buttonText = "Ver el Catálogo"
 
 
   # Services section
