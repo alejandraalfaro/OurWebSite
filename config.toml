@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "es-CR"
-title = "KunVores"
+title = "Gul& VKonCept"
 
 theme = "hugo-agency-theme"
 
@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Our WebSite"
+    brand = "Gul& VKonCept"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"

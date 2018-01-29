@@ -284,10 +284,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    height: 100vh;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/629216918.jpg);
+    background-attachment: fixed;
+    background-image: url(../img/iStock-629216918.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
