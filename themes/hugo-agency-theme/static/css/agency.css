@@ -186,6 +186,23 @@ fieldset[disabled] .btn-xl.active {
     color: #fec503;
 }
 
+.navbar-default-page {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default-page .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default-page .navbar-brand:hover,
+.navbar-default-page .navbar-brand:focus,
+.navbar-default-page .navbar-brand:active,
+.navbar-default-page .navbar-brand.active {
+    color: #fec503;
+}
+
 .navbar-brand>img {
     height: 50px;
     max-width: 250px;
@@ -279,6 +296,81 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar-default-page .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default-page .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-default-page .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default-page .navbar-toggle:hover,
+.navbar-default-page .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default-page .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default-page .nav li a:hover,
+.navbar-default-page .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+
+.navbar-default-page .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-default-page .navbar-nav>.active>a:hover,
+.navbar-default-page .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default-page {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default-page .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default-page .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default-page.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default-page.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }

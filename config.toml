@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "es-CR"
-title = "Gul& VKonCept"
+title = "GulyV KonCept"
 
 theme = "hugo-agency-theme"
 
@@ -45,14 +45,19 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Gul& VKonCept"
+    brand = "GulyV KonCept"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    #services = "Services"
+    #portfolio = "Portfolio"
+    about = "Nosotros"
+    #team = "Team"
+    contact = "Contacto"
+
+    [[menu.prepend]]
+      url = "/catalog"
+      name = "Catálogo"
+      weight = 10
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -64,25 +69,20 @@ googleAnalytics = ""
     #  name = "Hugo"
     #  weight = 10
 
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "La tienda en línea de Costa Rica"
+    subtitle = "Bienvenido"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -108,7 +108,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -160,7 +160,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -212,7 +212,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -297,12 +297,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
-
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    copyright = "Derechos Reservados Gul VKonCept 2018"
 
     [[params.footer.social]]
       icon = "fa-facebook"
@@ -310,14 +305,14 @@ She worked at Pied Piper for years until they went belly up."""
       title = "Facebook"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
+      icon = "fa-whatsapp"
       link = "#"
-      title = "LinkedIn"
+      title = "WhatsApp"
 
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
+      text = "Política de Privacidad"
       link = "#"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
+      text = "Términos de Uso"
       link = "#"
