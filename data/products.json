@@ -48,5 +48,15 @@
     "images": ["/img/products/0005-1.jpg", "/img/products/0005-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Cintura Ajustable, Azul Navy Sólido, 100% Algodón"
+  },
+  {
+    "id": "glv-0006",
+    "name": "Jeans",
+    "brand": "Gymboree",
+    "condition": "Excelente",
+    "price": 6800,
+    "images": ["/img/products/0006-1.jpg", "/img/products/0006-2.jpg"],
+    "categories": ["kids", "girls", "used"],
+    "description": "Corte Skinny, Cintura Ajustable, 98% Algodón / 2% Spandex"
   }
 ]
