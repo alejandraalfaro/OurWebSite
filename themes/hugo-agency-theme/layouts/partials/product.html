@@ -1,0 +1,24 @@
+<div class="item  col-xs-4 col-lg-4">
+    <div class="thumbnail">
+        <img class="group list-group-image" src="{{ .image }}" alt="" />
+        <div class="caption">
+            <h4 class="group inner list-group-item-heading">
+                {{ .name }}</h4>
+            <p class="group inner list-group-item-text">
+                {{ .description }}</p>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <p class="lead">
+                        {{ .price }}</p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <a class="btn btn-success snipcart-add-item"
+                    data-item-id="{{ .id }}"
+                    data-item-name="{{ .name }}"
+                    data-item-price="{{ .price }}"
+                    data-item-url="{{ .url }}">Agregar al Carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

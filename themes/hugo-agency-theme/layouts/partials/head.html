@@ -9,6 +9,7 @@
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link href="{{ "css/bootstrap-v3.3.7/bootstrap.min.css" | absURL }}" rel="stylesheet">
   <link href="{{ "css/agency.css" | absURL }}" rel="stylesheet">
+  <link href="{{ "css/custom.css" | absURL }}" rel="stylesheet">
   <link href="{{ "css/jquery.form-validator-v2.3.44/theme-default.min.css" | absURL }}" rel="stylesheet">
 
   {{ range .Site.Params.custom_css }}
@@ -29,6 +30,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
     <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
   {{ end }}
+
+  <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
 
   {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
   {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}

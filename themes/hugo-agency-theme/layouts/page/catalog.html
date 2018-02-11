@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+
+    <div id="all">
+      {{ partial "nav_page.html" . }}
+
+      <div id="content">
+          <div class="container">
+            <div class="well well-sm">
+                <strong>Ver el Catálogo como: </strong>
+                <div class="btn-group">
+                    <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+                    </span>Lista</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+                        class="glyphicon glyphicon-th"></span>Malla</a>
+                </div>
+            </div>
+            <div id="products" class="row list-group">
+
+
+                        {{ $products := getJSON "/data/products.json" }}
+
+                        {{ range $products }}
+                            {{ partial "product.html" . }}
+                        {{ end }}
+
+
+          </div>
+      </div>
+      <!-- /#content -->
+
+      {{ if .Site.Params.footer.enable }}
+        {{ partial "footer.html" . }}
+      {{ end }}
+
+    </div>
+    <!-- /#all -->
+    {{ partial "js.html" . }}
+    <script>
+      $(document).ready(function() {
+          $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+          $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+      });
+    </script>
+  </body>
+</html>

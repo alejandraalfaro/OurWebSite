@@ -70,6 +70,12 @@
             <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
+
+          <li class="snipcart-summary">
+            <a href="#" class="snipcart-checkout">
+              <i class="fa fa-shopping-cart"></i> (<span class="snipcart-total-items">0</span>)
+            </a>
+          </li>
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
