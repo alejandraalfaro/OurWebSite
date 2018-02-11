@@ -41,7 +41,7 @@
                     data-item-price="{{ .price }}"
                     data-item-description="{{ .description }}"
                     data-item-image="{{ index .images 0 | absURL }}"
-                    data-item-url="{{ . | absURL }}">
+                    data-item-url="{{ .URL }}">
                     Agregar al Carrito</a>
                 </div>
             </div>
