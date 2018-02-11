@@ -38,5 +38,15 @@
     "images": ["/img/products/0004-1.jpg", "/img/products/0004-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Color Coral, Diseño a rayas, 100% Polyester"
+  },
+  {
+    "id": "glv-0005",
+    "name": "Khaki Shorts",
+    "brand": "Crazy 8",
+    "condition": "Excelente",
+    "price": 10800,
+    "images": ["/img/products/0005-1.jpg", "/img/products/0005-2.jpg"],
+    "categories": ["kids", "girls", "used"],
+    "description": "Cintura Ajustable, Azul Navy Sólido, 100% Algodón"
   }
 ]

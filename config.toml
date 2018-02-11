@@ -1,4 +1,4 @@
-baseURL = "https://gulvkoncept.netlify.com"
+baseURL = "https://www.gulvkoncept.com"
 languageCode = "es-CR"
 title = "Gul&V KonCept"
 
@@ -262,7 +262,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "ventas@gulvkconcept.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
