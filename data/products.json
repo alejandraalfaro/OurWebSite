@@ -1,98 +1,42 @@
 [
   {
-    "id": "1",
-    "name": "1 Pod Plume",
-    "price": 80,
-    "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
-    "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
+    "id": "glv-0001",
+    "name": "Tank Top",
+    "brand": "OshKosh B'gosh",
+    "condition": "Excelente",
+    "price": 5800,
+    "images": ["/img/products/0001-1.jpg", "/img/products/0001-2.jpg"],
+    "categories": ["kids", "girls", "used"],
+    "description": "Sin mangas, Blanco, 100% Algodón"
   },
   {
-    "id": "2",
-    "name": "6 Pods Plume Negros",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
+    "id": "glv-0002",
+    "name": "Short Sleeve T-Shirt",
+    "brand": "Jona Michelle",
+    "condition": "Excelente",
+    "price": 5800,
+    "images": ["/img/products/0002-1.jpg", "/img/products/0002-2.jpg"],
+    "categories": ["kids", "girls","used"],
+    "description": "Manga corta, Celeste, 93% Algodón / 7% Spandex"
   },
   {
-    "id": "3",
-    "name": "6 Pods Plume Plateados",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
+    "id": "glv-0003",
+    "name": "Leggings",
+    "brand": "Aerie",
+    "condition": "Excelente",
+    "price": 9200,
+    "images": ["/img/products/0003-1.jpg", "/img/products/0003-2.jpg"],
+    "categories": ["kids", "girls", "used"],
+    "description": "Corte de pierna delgado, Elástico en cintura, Negro Sólido, 92% Algodón / 8% Elastane"
   },
   {
-    "id": "4",
-    "name": "1 Pod Plume",
-    "price": 80,
-    "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
-    "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "5",
-    "name": "6 Pods Plume Negros",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "6",
-    "name": "6 Pods Plume Plateados",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "7",
-    "name": "1 Pod Plume",
-    "price": 80,
-    "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
-    "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "8",
-    "name": "6 Pods Plume Negros",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "9",
-    "name": "6 Pods Plume Plateados",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "10",
-    "name": "1 Pod Plume",
-    "price": 80,
-    "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
-    "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "11",
-    "name": "6 Pods Plume Negros",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
-  },
-  {
-    "id": "12",
-    "name": "6 Pods Plume Plateados",
-    "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
-    "price": 450,
-    "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "https://gulovkoncept.netlify.com/catalog/"
+    "id": "glv-0004",
+    "name": "Jumper",
+    "brand": "Bonnie Baby",
+    "condition": "Excelente",
+    "price": 10400,
+    "images": ["/img/products/0004-1.jpg", "/img/products/0004-2.jpg"],
+    "categories": ["kids", "girls", "used"],
+    "description": "Color Coral, Diseño a rayas, 100% Polyester"
   }
 ]

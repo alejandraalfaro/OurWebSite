@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "es-CR"
-title = "GulyV KonCept"
+title = "Gul&V KonCept"
 
 theme = "hugo-agency-theme"
 
@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "GulOV KonCept"
+    brand = "Gul&V KonCept"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     #services = "Services"
@@ -297,7 +297,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Derechos Reservados Gul VKonCept 2018"
+    copyright = "Derechos Reservados Gul&V KonCept 2018"
 
     [[params.footer.social]]
       icon = "fa-facebook"
