@@ -386,17 +386,21 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    height: 100vh;
-    text-align: center;
-    color: #fff;
-    background-attachment: fixed;
-    background-image: url(../img/iStock-629216918.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/iStock-629216918.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+@media(min-width:768px) {
+    header {
+      background-attachment: fixed;
+    }
 }
 
 header .intro-text {
