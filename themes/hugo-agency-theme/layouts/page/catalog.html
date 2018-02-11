@@ -27,15 +27,63 @@
                 </div>
             </div>
             <div id="products" class="row list-group">
+              {{ $products := getJSON "/data/products.json" }}
+              {{ $URL := .URL }}
+              {{ range $products }}
+
+              <div class="item  col-xs-6 col-lg-4">
+                  <div class="thumbnail">
+                      <img class="group list-group-image" src="{{ .image }}" alt="" />
+
+                      <div id="carousel-{{ .id }}" class="carousel slide">
+                        <div class="carousel-inner">
+                          {{ range $index, $image := .images }}
+                          <div class="item {{ if not $index }}active {{end}}">
+                            <img class="d-block w-100" src="{{ $image }}" alt="{{ $image }}">
+                          </div>
+                          {{end}}
+                        </div>
+                        <a class="left carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Siguiente</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                      </div>
+
+                      <div class="caption">
+                          <h4 class="group inner list-group-item-heading">
+                              {{ .name }}</h4>
+                          <p class="group inner list-group-item-text">
+                              {{ .description }}</p>
+                          <p class="group inner list-group-item-text">
+                              <b>Marca</b>: {{ .brand }}</p>
+                          <p class="group inner list-group-item-text">
+                              <b>Estado</b>: {{ .condition }}</p>
+                          <div class="row">
+                              <div class="col-xs-12 col-md-6">
+                                  <p class="lead">
+                                      ¢ {{ .price }}</p>
+                              </div>
+                              <div class="col-xs-12 col-md-6">
+                                  <a class="btn btn-success snipcart-add-item"
+                                  data-item-id="{{ .id }}"
+                                  data-item-name="{{ .name }}"
+                                  data-item-price="{{ .price }}"
+                                  data-item-description="{{ .description }}"
+                                  data-item-image="{{ index .images 0 | absURL }}"
+                                  data-item-url="{{ $URL | absURL }}">
+                                  Agregar al Carrito</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
 
-                        {{ $products := getJSON "/data/products.json" }}
-
-                        {{ range $products }}
-                            {{ partial "product.html" . }}
-                        {{ end }}
-
-
+              {{ end }}
           </div>
       </div>
       <!-- /#content -->
