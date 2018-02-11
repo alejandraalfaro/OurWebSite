@@ -295,6 +295,11 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
 
+    .navbar-page {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
@@ -366,6 +371,11 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default-page.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-page {
         padding: 10px 0;
         background-color: #222;
     }

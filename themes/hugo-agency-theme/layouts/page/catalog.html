@@ -2,8 +2,16 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
   {{ partial "head.html" . }}
+  <style>
+  body { padding-top: 70px; }
+
+  @media(min-width:768px) {
+    body { padding-top: 100px; }
+  }
+  </style>
 
   <body id="page-top" class="index">
+
 
     <div id="all">
       {{ partial "nav_page.html" . }}

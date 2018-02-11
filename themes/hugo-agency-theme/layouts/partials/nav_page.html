@@ -1,5 +1,5 @@
 {{ "<!-- Navigation -->" | safeHTML }}
-<nav class="navbar navbar-default-page navbar-shrink">
+<nav class="navbar navbar-default navbar-page navbar-fixed-top">
   <div class="container">
 
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
@@ -21,7 +21,14 @@
         </a>
       {{ end }}
 
+      <p class="navbar-text navbar-right snipcart-summary">
+        <a href="#" class="snipcart-checkout">
+          <i class="fa fa-shopping-cart"></i> (<span class="snipcart-total-items">0</span>)
+        </a>
+      </p>
+
     </div>
+
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
@@ -70,12 +77,6 @@
             <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
         {{ end }}
-
-          <li class="snipcart-summary">
-            <a href="#" class="snipcart-checkout">
-              <i class="fa fa-shopping-cart"></i> (<span class="snipcart-total-items">0</span>)
-            </a>
-          </li>
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}
