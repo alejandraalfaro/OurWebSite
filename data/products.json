@@ -5,7 +5,7 @@
     "price": 80,
     "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
     "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
     "id": "3",
@@ -21,78 +21,78 @@
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "1",
+    "id": "4",
     "name": "1 Pod Plume",
     "price": 80,
     "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
     "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "2",
+    "id": "5",
     "name": "6 Pods Plume Negros",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "3",
+    "id": "6",
     "name": "6 Pods Plume Plateados",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "1",
+    "id": "7",
     "name": "1 Pod Plume",
     "price": 80,
     "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
     "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "2",
+    "id": "8",
     "name": "6 Pods Plume Negros",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "3",
+    "id": "9",
     "name": "6 Pods Plume Plateados",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "1",
+    "id": "10",
     "name": "1 Pod Plume",
     "price": 80,
     "image": "https://static.plumewifi.com/dist/press/packaging/single-silver.jpg",
     "description": "1 Pod de PlumeWifi (vendido por 506Networks)",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "2",
+    "id": "11",
     "name": "6 Pods Plume Negros",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-onyx.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   },
   {
-    "id": "3",
+    "id": "12",
     "name": "6 Pods Plume Plateados",
     "description": "6 Pods de PlumeWifi (vendido por 506Networks)",
     "price": 450,
     "image": "https://static.plumewifi.com/dist/press/packaging/six-champagne.jpg",
-    "url": "http://snipcart-hugo.netlify.com"
+    "url": "https://gulovkoncept.netlify.com/catalog/"
   }
 ]
