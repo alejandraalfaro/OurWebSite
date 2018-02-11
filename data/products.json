@@ -4,7 +4,7 @@
     "name": "Tank Top",
     "brand": "OshKosh B'gosh",
     "condition": "Excelente",
-    "price": 5800,
+    "price": 3800,
     "images": ["/img/products/0001-1.jpg", "/img/products/0001-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Sin mangas, Blanco, 100% Algodón"
@@ -14,7 +14,7 @@
     "name": "Short Sleeve T-Shirt",
     "brand": "Jona Michelle",
     "condition": "Excelente",
-    "price": 5800,
+    "price": 3800,
     "images": ["/img/products/0002-1.jpg", "/img/products/0002-2.jpg"],
     "categories": ["kids", "girls","used"],
     "description": "Manga corta, Celeste, 93% Algodón / 7% Spandex"
@@ -24,7 +24,7 @@
     "name": "Leggings",
     "brand": "Aerie",
     "condition": "Excelente",
-    "price": 9200,
+    "price": 6000,
     "images": ["/img/products/0003-1.jpg", "/img/products/0003-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Corte de pierna delgado, Elástico en cintura, Negro Sólido, 92% Algodón / 8% Elastane"
@@ -34,7 +34,7 @@
     "name": "Jumper",
     "brand": "Bonnie Baby",
     "condition": "Excelente",
-    "price": 10400,
+    "price": 6800,
     "images": ["/img/products/0004-1.jpg", "/img/products/0004-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Color Coral, Diseño a rayas, 100% Polyester"
@@ -44,7 +44,7 @@
     "name": "Khaki Shorts",
     "brand": "Crazy 8",
     "condition": "Excelente",
-    "price": 10800,
+    "price": 5300,
     "images": ["/img/products/0005-1.jpg", "/img/products/0005-2.jpg"],
     "categories": ["kids", "girls", "used"],
     "description": "Cintura Ajustable, Azul Navy Sólido, 100% Algodón"
