@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div id="products" class="row list-group">
-              {{ $products := getJSON "/data/products.json" }}
+              {{ $products := getJSON "https://drive.google.com/uc?export=download&id=18AjIAYTbl-c-kdWoUPHT9W5agaAkXOAd" }}
               {{ $URL := .URL }}
               {{ range $products }}
 
@@ -39,7 +39,7 @@
                         <div class="carousel-inner">
                           {{ range $index, $image := .images }}
                           <div class="item {{ if not $index }}active {{end}}">
-                            <img class="d-block w-100" src="{{ $image }}" alt="{{ $image }}">
+                            <img class="d-block w-100" src="https://drive.google.com/uc?export=download&id={{ $image }}" alt="{{ $image }}">
                           </div>
                           {{end}}
                         </div>
