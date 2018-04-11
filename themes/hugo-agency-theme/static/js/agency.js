@@ -1,3 +1,36 @@
+$(document).ready(function() {
+  $(".btn-tag-category").click(function(eventObject) {
+    var tag = $(this).html();
+    var totalPanel = document.getElementsByClassName("product").length;
+    eventObject.preventDefault();
+
+    var buttons = document.getElementsByClassName("btn-tag-category")
+    i = buttons.length
+    while(i--) {
+        buttons[i].classList.remove("btn-primary");
+    }
+
+    $(this).addClass("btn-primary");
+
+    // Change the product boxes
+    for (var x = 1; x <= totalPanel; x++  ){
+      //console.log("json: " + JSON.stringify($("#project" + x ).html()));
+      if(JSON.stringify($("#product" + x ).html()).indexOf(tag) >= 0 ){
+        //console.log( JSON.stringify($("#project" + x ).html()) );
+        $("#product" + x ).hide();
+        $("#product" + x ).fadeIn();
+      } else {
+        $("#product" + x ).hide();
+      };
+      //console.log(tag);
+      //console.log(JSON.stringify($("#project" + x ).html()).indexOf(tag));
+    }
+    //console.log(tag);
+
+  });
+  //console.log("total panel: " + document.getElementsByClassName("panel").length );
+});
+
 // Smooth scrolling via animate()
 $(document).ready(function(){
   $("a").on('click', function(event) {

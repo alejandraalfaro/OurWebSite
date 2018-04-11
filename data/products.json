@@ -1,0 +1,57 @@
+[
+  {
+     "id": "glv-000001",
+     "name": "Short",
+     "brand": "Cat & Jack",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "10-12",
+     "price": "13.99",
+     "images": ["000001-1.jpg", "000001-2.jpg"],
+     "description": "Demim Short, color rosado"
+  },
+  {
+     "id": "glv-000002",
+     "name": "Enagua",
+     "brand": "Carter's",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "3T",
+     "price": "7.99",
+     "images": ["000002-1.jpg", "000002-2.jpg"],
+     "description": "Enagua Azul de encaje"
+  },
+  {
+     "id": "glv-000003",
+     "name": "Pantalon",
+     "brand": "Garnet Hill",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "10",
+     "price": "15.99",
+     "images": ["000003-1.jpg", "000003-2.jpg"],
+     "description": "Color Celeste"
+  },
+  {
+     "id": "glv-000004",
+     "name": "Abrigo",
+     "brand": "Old Navy",
+     "condition": "Buen Estado",
+     "category": "Niña",
+     "size": "4T",
+     "price": "12.99",
+     "images": ["000004-1.jpg", "000004-2.jpg"],
+     "description": "Color Negro, doble forro"
+  },
+  {
+     "id": "glv-000011",
+     "name": "Sweter",
+     "brand": "Kardashian Kids",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "18 Meses",
+     "price": "11.99",
+     "images": ["000011-1.jpg", "000011-2.jpg"],
+     "description": "Gris con Detalle Negro en el hombro"
+  }
+]
