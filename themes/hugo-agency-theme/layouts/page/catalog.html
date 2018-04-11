@@ -17,7 +17,7 @@
       {{ partial "nav_page.html" . }}
 
       <div id="content">
-          <div class="container">
+          <div class="container-fluid">
             <div class="well">
                 <button type="button" class="btn btn-primary btn-tag-category">Todos</button>
                 <button type="button" class="btn btn-tag-category">Niño</button>
@@ -32,7 +32,7 @@
 -->
             </div>
             <div class="well">
-              <div id="products" class="row list-group">
+              <div id="products" class="row list-group ">
                 {{ $products := getJSON "/data/products.json" }}
                 {{ $URL := .URL }}
                 {{ range $index, $product := $products }}
@@ -45,7 +45,7 @@
                           <div class="carousel-inner">
                             {{ range $index, $image := .images }}
                             <div class="item {{ if not $index }}active {{end}}">
-                              <img class="d-block w-100" src="/img/products/{{ $image }}" alt="{{ $image }}">
+                              <img class="d-block w-100 h-500" src="/img/products/{{ $image }}" alt="{{ $image }}">
                             </div>
                             {{end}}
                           </div>

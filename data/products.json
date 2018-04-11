@@ -152,5 +152,49 @@
      "price": "11.99",
      "images": ["000014-1.jpg", "000014-2.jpg"],
      "description": "Azul Oscuro con Zipper al frente"
+  },
+  {
+     "id": "glv-000061",
+     "name": "Pijama 2-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "4t",
+     "price": "9.99",
+     "images": ["000061-1.jpg"],
+     "description": "Pijama de 2 piezas, algodón"
+  },
+  {
+     "id": "glv-000062",
+     "name": "Pijama 2-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niño",
+     "size": "3t",
+     "price": "9.99",
+     "images": ["000062-1.jpg"],
+     "description": "Pijama de 2 piezas, algodón"
+  },
+  {
+     "id": "glv-000063",
+     "name": "Pijama 4-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "3t",
+     "price": "16.99",
+     "images": ["000063-1.jpg"],
+     "description": "Pijama de 4 piezas, algodón"
+  },
+  {
+     "id": "glv-000064",
+     "name": "Pijama 4-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "3t",
+     "price": "16.99",
+     "images": ["000064-1.jpg"],
+     "description": "Pijama de 4 piezas, algodón"
   }
 ]

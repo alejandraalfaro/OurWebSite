@@ -56,6 +56,23 @@
     max-width: 100px;
 }
 
+.h-500 {
+    max-height: 500px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.thumbnail img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 .hidden {
   display: none;
 }
