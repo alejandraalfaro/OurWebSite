@@ -44,6 +44,72 @@
      "description": "Color Negro, doble forro"
   },
   {
+     "id": "glv-000005",
+     "name": "Vestido",
+     "brand": "Starting Out",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "4 Meses",
+     "price": "6.99",
+     "images": ["000005-1.jpg", "000005-2.jpg"],
+     "description": "A rayas Celeste con Blanco"
+  },
+  {
+     "id": "glv-000006",
+     "name": "Camiseta",
+     "brand": "Cat & Jack",
+     "condition": "Buen Estado",
+     "category": "Niña",
+     "size": "10-12",
+     "price": "7.99",
+     "images": ["000006-1.jpg", "000006-2.jpg"],
+     "description": "Celeste, con Decoracion"
+  },
+  {
+     "id": "glv-000007",
+     "name": "Jacket",
+     "brand": "90 Degrees by Reflex",
+     "condition": "Excelente",
+     "category": "Niña",
+     "size": "4T",
+     "price": "7.99",
+     "images": ["000007-1.jpg", "000007-2.jpg"],
+     "description": "Tela Spandex, color rosada"
+  },
+  {
+     "id": "glv-000008",
+     "name": "Pantalon",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niña",
+     "size": "3T",
+     "price": "11.99",
+     "images": ["000008-1.jpg", "000008-2.jpg"],
+     "description": "Jeans Azul tono desteñido"
+  },
+  {
+     "id": "glv-000009",
+     "name": "Short Enagua",
+     "brand": "Old Navy",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "3T",
+     "price": "8.99",
+     "images": ["000009-1.jpg", "000009-2.jpg"],
+     "description": "Azul"
+  },
+  {
+     "id": "glv-000010",
+     "name": "Vestido",
+     "brand": "Ralph Lauren",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "24 Meses",
+     "price": "16.99",
+     "images": ["000010-1.jpg", "000010-2.jpg"],
+     "description": "Azul, dos piesas vestido y calzon"
+  },
+  {
      "id": "glv-000011",
      "name": "Sweter",
      "brand": "Kardashian Kids",
@@ -53,5 +119,38 @@
      "price": "11.99",
      "images": ["000011-1.jpg", "000011-2.jpg"],
      "description": "Gris con Detalle Negro en el hombro"
+  },
+  {
+     "id": "glv-000012",
+     "name": "Enterizo, Largo",
+     "brand": "Baby Gab",
+     "condition": "Excelente",
+     "category": "Niña",
+     "size": "18-24 Meses",
+     "price": "9.99",
+     "images": ["000012-1.jpg", "000012-2.jpg"],
+     "description": "Blusa Azul de puntos, y pantalon gris claro"
+  },
+  {
+     "id": "glv-000013",
+     "name": "Blusa",
+     "brand": "Carter's",
+     "condition": "Excelente",
+     "category": "Niña",
+     "size": "3T",
+     "price": "9.99",
+     "images": ["000013-1.jpg", "000013-2.jpg"],
+     "description": "Blusa Azul, tirante grueso con detalle bordado en el pecho"
+  },
+  {
+     "id": "glv-000014",
+     "name": "Abrigo",
+     "brand": "Carter's",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "3T",
+     "price": "11.99",
+     "images": ["000014-1.jpg", "000014-2.jpg"],
+     "description": "Azul Oscuro con Zipper al frente"
   }
 ]
