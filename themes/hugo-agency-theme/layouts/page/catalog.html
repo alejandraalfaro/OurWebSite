@@ -18,20 +18,18 @@
 
       <div id="content">
           <div class="container">
-            <div class="well well-sm">
-                <strong>Ver el Catálogo como: </strong>
-                <div class="btn-group">
+            <div class="well">
+                <button type="button" class="btn btn-primary btn-tag-category">Todos</button>
+                <button type="button" class="btn btn-tag-category">Niño</button>
+                <button type="button" class="btn btn-tag-category">Niña</button>
+                <button type="button" class="btn btn-tag-category ">Accesorios</button>
+
+<!--                <strong>Ver el Catálogo como: </strong> -->
+                <div class="btn-group pull-right">
                     <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
                     </span>Lista</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
                         class="glyphicon glyphicon-th"></span>Malla</a>
                 </div>
-            </div>
-            <div class="well well-sm">
-                <strong>Tipo de Producto: </strong>
-                <button type="button" class="btn btn-primary btn-tag-category">Todos</button>
-                <button type="button" class="btn btn-tag-category">Niño</button>
-                <button type="button" class="btn btn-tag-category">Niña</button>
-                <button type="button" class="btn btn-tag-category">Accesorios</button>
             </div>
             <div id="products" class="row list-group">
               {{ $products := getJSON "/data/products.json" }}
