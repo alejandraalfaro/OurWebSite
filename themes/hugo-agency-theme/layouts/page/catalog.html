@@ -24,78 +24,78 @@
                 <button type="button" class="btn btn-tag-category">Niña</button>
                 <button type="button" class="btn btn-tag-category ">Accesorios</button>
 
-<!--                <strong>Ver el Catálogo como: </strong> -->
-                <div class="btn-group pull-right">
+<!--                 <div class="btn-group pull-right">
                     <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
                     </span>Lista</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
                         class="glyphicon glyphicon-th"></span>Malla</a>
-                </div>
+                      </div>
+-->
             </div>
-            <div id="products" class="row list-group">
-              {{ $products := getJSON "/data/products.json" }}
-              {{ $URL := .URL }}
-              {{ range $index, $product := $products }}
-              {{ $counter := add $index 1 }}
-              <div class="item col-xs-6 col-lg-4 product" id="product{{ $counter }}">
-                  <div class="thumbnail" id="{{ .id }}">
-                      <img class="group list-group-image" src="{{ .image }}" alt="" />
+            <div class="well">
+              <div id="products" class="row list-group">
+                {{ $products := getJSON "/data/products.json" }}
+                {{ $URL := .URL }}
+                {{ range $index, $product := $products }}
+                {{ $counter := add $index 1 }}
+                <div class="item col-xs-12 col-md-4 col-lg-4 product" id="product{{ $counter }}">
+                    <div class="thumbnail" id="{{ .id }}">
+                        <img class="group list-group-image" src="{{ .image }}" alt="" />
 
-                      <div id="carousel-{{ .id }}" class="carousel slide">
-                        <div class="carousel-inner">
-                          {{ range $index, $image := .images }}
-                          <div class="item {{ if not $index }}active {{end}}">
-                            <img class="d-block w-100" src="/img/products/{{ $image }}" alt="{{ $image }}">
+                        <div id="carousel-{{ .id }}" class="carousel slide">
+                          <div class="carousel-inner">
+                            {{ range $index, $image := .images }}
+                            <div class="item {{ if not $index }}active {{end}}">
+                              <img class="d-block w-100" src="/img/products/{{ $image }}" alt="{{ $image }}">
+                            </div>
+                            {{end}}
                           </div>
-                          {{end}}
+                          <a class="left carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Siguiente</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
                         </div>
-                        <a class="left carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="prev">
-                          <span class="glyphicon glyphicon-chevron-left"></span>
-                          <span class="sr-only">Siguiente</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="next">
-                          <span class="glyphicon glyphicon-chevron-right"></span>
-                          <span class="sr-only">Anterior</span>
-                        </a>
-                      </div>
 
-                      <div class="caption">
-                          <h4 class="group inner list-group-item-heading">
-                              {{ .name }}</h4>
-                          <p class="group inner list-group-item-text">
-                              {{ .description }}</p>
-                          <p class="group inner list-group-item-text">
-                              <b>Marca</b>: {{ .brand }}</p>
-                          <p class="group inner list-group-item-text">
-                              <b>Estado</b>: {{ .condition }}</p>
-                          <p class="group inner list-group-item-text">
-                              <b>Talla</b>: {{ .size }}</p>
-                          <div class="row">
-                              <div class="col-xs-12 col-md-6">
-                                  <p class="lead">
-                                      $ {{ .price }}</p>
-                              </div>
-                              <div class="col-xs-12 col-md-6">
-                                  <a class="btn btn-success snipcart-add-item"
-                                  data-item-id="{{ .id }}"
-                                  data-item-name="{{ .name }}"
-                                  data-item-price="{{ .price }}"
-                                  data-item-description="{{ .description }}"
-                                  data-item-image="{{ "/img/products/" | absURL }}{{ index .images 0 }}"
-                                  data-item-url="{{ $URL | absURL }}">
-                                  Agregar al Carrito</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="panel-footer tag">
-                        <span class="label label-primary hidden">Todos</span>
-                        <span class="label label-primary">{{ .category }}</span>
-                      </div>
-
-                  </div>
+                        <div class="caption">
+                            <h4 class="group inner list-group-item-heading">
+                                {{ .name }} <span class="badge badge-info">{{ .category }}</span> </h4>
+                            <p class="group inner list-group-item-text">
+                                {{ .description }}</p>
+                            <p class="group inner list-group-item-text">
+                                <b>Marca</b>: {{ .brand }}</p>
+                            <p class="group inner list-group-item-text">
+                                <b>Estado</b>: {{ .condition }}</p>
+                            <p class="group inner list-group-item-text">
+                                <b>Talla</b>: {{ .size }}</p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        $ {{ .price }}</p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn btn-success snipcart-add-item"
+                                    data-item-id="{{ .id }}"
+                                    data-item-name="{{ .name }}"
+                                    data-item-price="{{ .price }}"
+                                    data-item-description="{{ .description }}"
+                                    data-item-image="{{ "/img/products/" | absURL }}{{ index .images 0 }}"
+                                    data-item-url="{{ $URL | absURL }}">
+                                    Agregar al Carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer tag hidden">
+                          <span class="label label-primary hidden">Todos</span>
+                          <span class="label label-primary hidden">{{ .category }}</span>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
               </div>
-
-
-              {{ end }}
+            </div>
           </div>
       </div>
       <!-- /#content -->
