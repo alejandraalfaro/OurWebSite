@@ -49,6 +49,9 @@
                             </div>
                             {{end}}
                           </div>
+                          {{ if eq .condition "Nuevo" }}
+                          <span class="notify-badge">Nuevo!</span>
+                          {{end}}
                           {{ if isset .images 1 }}
                           <a class="left carousel-control" href="#carousel-{{ .id }}" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
