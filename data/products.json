@@ -111,7 +111,7 @@
   },
   {
      "id": "glv-000011",
-     "name": "Sweter",
+     "name": "Sweater",
      "brand": "Kardashian Kids",
      "condition": "Buen Estado",
      "category": "Niño",
@@ -182,7 +182,7 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "3t",
-     "price": "16.99",
+     "price": "19.99",
      "images": ["000063-1.jpg"],
      "description": "Pijama de 4 piezas, algodón"
   },
@@ -193,8 +193,74 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "3t",
-     "price": "16.99",
+     "price": "19.99",
      "images": ["000064-1.jpg"],
      "description": "Pijama de 4 piezas, algodón"
+  },
+  {
+     "id": "glv-000065",
+     "name": "Jacket Set 3-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "9m",
+     "price": "17.99",
+     "images": ["000065-1.jpg"],
+     "description": "Set de 3 piezas, perfecto para dias frios"
+  },
+  {
+     "id": "glv-000066",
+     "name": "Set Cardigan 3-piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "24m",
+     "price": "17.99",
+     "images": ["000066-1.jpg"],
+     "description": "Estampado de corazones"
+  },
+  {
+     "id": "glv-000067",
+     "name": "Set 2 piezas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niño",
+     "size": "24m",
+     "price": "11.99",
+     "images": ["000067-1.jpg"],
+     "description": "Color amarillo"
+  },
+  {
+     "id": "glv-000068",
+     "name": "T-shirt Globos",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "4t",
+     "price": "8.99",
+     "images": ["000068-1.jpg"],
+     "description": "Color Blanco, manga larga"
+  },
+  {
+     "id": "glv-000069",
+     "name": "T-shirt Mis cosas favoritas",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "3t",
+     "price": "8.99",
+     "images": ["000069-1.jpg"],
+     "description": "Color Azul, manga corta"
+  },
+  {
+     "id": "glv-000070",
+     "name": "T-shirt Emojis",
+     "brand": "Carter's",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "3t",
+     "price": "8.99",
+     "images": ["000070-1.jpg"],
+     "description": "Color rosado, manga corta"
   }
 ]

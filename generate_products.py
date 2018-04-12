@@ -10,7 +10,7 @@ reader = csv.DictReader(f)
 first = True
 print("[")
 for row in reader:
-    if row['Ready'] :
+    if int(row['Quantity']) >= 1 :
         if not first:
             print(",")
         first = False
