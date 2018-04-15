@@ -10,7 +10,7 @@ reader = csv.DictReader(f)
 first = True
 print("[")
 for row in reader:
-    if int(row['Quantity']) >= 1 :
+    if row['Quantity'] and (int(row['Quantity']) >= 1) :
         if not first:
             print(",")
         first = False
@@ -29,8 +29,7 @@ for row in reader:
             print("\"{}-{}.jpg\"".format(row['Product Code'],i),end='')
             i+=1
         print("],")
-#        print("     \"categories\": \"{}\",".format(row['Product Name']))
-        print("     \"description\": \"{}\"".format(row['Product Description']))
+        print("     \"description\": \"{}\"".format(row['Product Description'].replace("\n","\\n")))
         print("  }", end='')
 
 print("\n]")
