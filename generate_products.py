@@ -29,7 +29,7 @@ for row in reader:
             print("\"{}-{}.jpg\"".format(row['Product Code'],i),end='')
             i+=1
         print("],")
-        print("     \"description\": \"{}\"".format(row['Product Description'].replace("\n","\\n")))
+        print("     \"description\": \"{}\"".format(row['Product Description'].replace("\n","<br/>")))
         print("  }", end='')
 
 print("\n]")

@@ -30,7 +30,7 @@
      "size": "10",
      "price": "15.99",
      "images": ["000003-1.jpg", "000003-2.jpg"],
-     "description": "Color Celeste"
+     "description": "Pantalon, stretch"
   },
   {
      "id": "glv-000004",
@@ -105,9 +105,9 @@
      "condition": "Casi Nuevo",
      "category": "Niña",
      "size": "24 Meses",
-     "price": "16.99",
+     "price": "19.99",
      "images": ["000010-1.jpg", "000010-2.jpg"],
-     "description": "Azul, dos piesas vestido y calzon"
+     "description": "Azul, dos piezas vestido y calzon"
   },
   {
      "id": "glv-000011",
@@ -182,7 +182,7 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "10",
-     "price": "11.99",
+     "price": "12.99",
      "images": ["000017-1.jpg", "000017-2.jpg"],
      "description": "Leggings Negro"
   },
@@ -283,7 +283,7 @@
      "size": "3 Meses",
      "price": "5.99",
      "images": ["000026-1.jpg"],
-     "description": "Cardigan & Bodysuit\nDos piezas, Negro y rojo\nArticulo 1: cardigan size 3-6 months, Rojo y Azul\nArticulo 2: Bodysuit Circo, Rojo y Negro"
+     "description": "Cardigan & Bodysuit<br/>Dos piezas, Negro y rojo<br/>Articulo 1: cardigan size 3-6 months, Rojo y Azul<br/>Articulo 2: Bodysuit Circo, Rojo y Negro"
   },
   {
      "id": "glv-000027",
@@ -294,7 +294,7 @@
      "size": "3 Meses",
      "price": "5.99",
      "images": ["000027-1.jpg"],
-     "description": "Set 3 Pantalones Algodón\nbabyGap: Verde & blanco\nGymboree: Multicolor\nOkie Dokie: Rosado"
+     "description": "Set 3 Pantalones Algodón<br/>babyGap: Verde & blanco<br/>Gymboree: Multicolor<br/>Okie Dokie: Rosado"
   },
   {
      "id": "glv-000028",
@@ -305,7 +305,7 @@
      "size": "2/2T",
      "price": "10.99",
      "images": ["000028-1.jpg"],
-     "description": "Shorts & T-shirt Set \nArticulo 1: Gymboree, Azul\nArticulo 2: Nickelodeon, \nPaw Patrol, Rojo & Azul"
+     "description": "Shorts & T-shirt Set <br/>Articulo 1: Gymboree, Azul<br/>Articulo 2: Nickelodeon, <br/>Paw Patrol, Rojo & Azul"
   },
   {
      "id": "glv-000029",
@@ -326,7 +326,7 @@
      "category": "Niño",
      "size": "4T",
      "price": "6.99",
-     "images": ["000030-1.jpg"],
+     "images": ["000030-1.jpg", "000030-2.jpg"],
      "description": "A cuadros, Celeste y Azul"
   },
   {
@@ -369,9 +369,504 @@
      "condition": "Nuevo",
      "category": "Niño",
      "size": "4T",
-     "price": "15.99",
+     "price": "24.99",
      "images": ["000034-1.jpg"],
      "description": "Camiseta Negro con Blanco, Chaleco Verde"
+  },
+  {
+     "id": "glv-000035",
+     "name": "Camiseta",
+     "brand": "LEGO",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "14/16",
+     "price": "5.99",
+     "images": ["000035-1.jpg", "000035-2.jpg"],
+     "description": "Camiseta LEGO negra"
+  },
+  {
+     "id": "glv-000036",
+     "name": "Shorts & T-shirt Set ",
+     "brand": "Old Navy & Carter's",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "2/2T",
+     "price": "13.99",
+     "images": ["000036-1.jpg"],
+     "description": "Shorts & T-shirt Set. Algodón<br/>Article 1: Carter's. Shorts. <br/>Café & Verde. <br/>Estilo Militar. Casi Nuevo<br/>Article 2: Old Navy. T-shirt<br/>Negro. Estilo Corbatín. Casi Nuevo"
+  },
+  {
+     "id": "glv-000037",
+     "name": "Jacket",
+     "brand": "Carter's",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "24 Meses",
+     "price": "13.99",
+     "images": ["000037-1.jpg"],
+     "description": "Jacket. Algodón.<br/>Rosa con Puntos Blanco"
+  },
+  {
+     "id": "glv-000038",
+     "name": "Sweatshirt",
+     "brand": "Carter's",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "7.99",
+     "images": ["000038-1.jpg"],
+     "description": "Sweater. <br/>Rayas Café, Gris & Anaranjado.<br/>Dibujo Mono        <br/>Polyester"
+  },
+  {
+     "id": "glv-000039",
+     "name": "Jacket",
+     "brand": "First Impressions",
+     "condition": "Nuevo",
+     "category": "Niña",
+     "size": "6 Meses",
+     "price": "13.99",
+     "images": ["000039-1.jpg"],
+     "description": "Sweater. Nueva. <br/>Estampado Flores.  <br/>Colores Pastel"
+  },
+  {
+     "id": "glv-000040",
+     "name": "Baseball Bodysuit & Striped Pants Set",
+     "brand": "Gymboree",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "5.99",
+     "images": ["000040-1.jpg"],
+     "description": "Baseball Bodysuit & <br/>Striped Pants Set. Algodón<br/>Article 1: Pants. <br/>Rayas Rojo & Azul. Buen Estado<br/>Article 2: Bodysuit<br/>Azul. Estampado Bolas. Buen Estado"
+  },
+  {
+     "id": "glv-000041",
+     "name": "Shirt",
+     "brand": "Gymboree",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "18 Meses",
+     "price": "3.99",
+     "images": ["000041-1.jpg"],
+     "description": "Shirt. <br/>Camiseta Azul & Gris.<br/>Balón Amarillo. <br/>OJO!!! Buen Estado pero Balón Dañado."
+  },
+  {
+     "id": "glv-000042",
+     "name": "Jeans",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "12 Meses",
+     "price": "6.99",
+     "images": ["000042-1.jpg"],
+     "description": "Jeans Azul. <br/>Pretina Elástico"
+  },
+  {
+     "id": "glv-000043",
+     "name": "Sweater",
+     "brand": "Gymboree",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "12 Meses",
+     "price": "5.99",
+     "images": ["000043-1.jpg"],
+     "description": "Sweater Azúl con Rombos Amarillos. <br/>Algodón. "
+  },
+  {
+     "id": "glv-000044",
+     "name": "Striped Sweater",
+     "brand": "Gymboree",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "6 Meses",
+     "price": "7.99",
+     "images": ["000044-1.jpg"],
+     "description": "Striped Sweater.<br/>Rayas Verde, Azul."
+  },
+  {
+     "id": "glv-000045",
+     "name": "Shirt & Pants Set",
+     "brand": "Gymboree & Circo",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "2/2T",
+     "price": "6.99",
+     "images": ["000045-1.jpg"],
+     "description": "Shirt & Pants Set. Algodón<br/>Article 1: Gymboree. Shirt. <br/>Gris. Casi Nuevo<br/>Article 2: Circo. Pants<br/>Beige. Casi Nuevo"
+  },
+  {
+     "id": "glv-000046",
+     "name": "Pants & Bodysuit Set ",
+     "brand": "Ralph Lauren & Child of Mine",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "7.99",
+     "images": ["000046-1.jpg"],
+     "description": "Pants & Bodysuit Set <br/>Article 1: Ralph Lauren. Pants. <br/>Café Claro. Casi Nuevo.<br/>Article 2: Child of Mine. Bodysuit<br/>Verde Manga Larga. Excelente"
+  },
+  {
+     "id": "glv-000047",
+     "name": "Bodysuit",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "3-6 Meses",
+     "price": "4.99",
+     "images": ["000047-1.jpg"],
+     "description": "Bodysuit. <br/>Manga Larga. Elefante. Azul"
+  },
+  {
+     "id": "glv-000048",
+     "name": "Tank Top & Bodysuit Set",
+     "brand": "Gymboree & Nike",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "5.99",
+     "images": ["000048-1.jpg"],
+     "description": "Tank Top & Bodysuit Set<br/>Article 1: Gymboree. Camiseta Torantes. <br/>Rayas Azul & Blanco. Buen Estado.<br/>Article 2: Nike. Bodysuit<br/>Negro Manga Corta. Casi Nuevo<br/>"
+  },
+  {
+     "id": "glv-000049",
+     "name": "T-shirt ",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "6-12 Meses",
+     "price": "5.99",
+     "images": ["000049-1.jpg"],
+     "description": "T-shirt <br/>Camiseta Amarilla con Dinosaurio.<br/>Algodón."
+  },
+  {
+     "id": "glv-000050",
+     "name": "Bodysuit & Pants Set ",
+     "brand": "Carter's & Gymboree",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "4.99",
+     "images": ["000050-1.jpg"],
+     "description": "Bodysuit & Pants Set <br/>Article 1: Caster's. Bodysuit. <br/>Azul. Buen Estado.<br/>Article 2:  Gymboree. Pants<br/>Rayas Colores. Buen Estado"
+  },
+  {
+     "id": "glv-000051",
+     "name": "Jeans & Shirt Set ",
+     "brand": "Gymboree & Little Me",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "12-18 Meses",
+     "price": "12.99",
+     "images": ["000051-1.jpg"],
+     "description": "Jeans & Shirt Set <br/>Article 1: Little Me. Shirt, Algodón<br/>Azul & Verde. Casi Nuevo.<br/>Article 2:  Gymboree. Jean <br/>Excelente."
+  },
+  {
+     "id": "glv-000052",
+     "name": "Shirt Set",
+     "brand": "Gymboree & B.T. Kids ",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "12 Meses",
+     "price": "11.99",
+     "images": ["000052-1.jpg"],
+     "description": "Shirt Set<br/>Article 1: Gymboree. Shirt, Algodón<br/>Rojo. Excelente.<br/>Article 2:         B.T. Kids. Shirt. <br/>Algodón & Polyester<br/>Azul & Café. Buen Estado."
+  },
+  {
+     "id": "glv-000053",
+     "name": "Shirt Set",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "6-12 Meses",
+     "price": "8.99",
+     "images": ["000053-1.jpg"],
+     "description": "Shirt Set<br/>Article 1: Gymboree. Shirt, Sweatshirt <br/>Azul & Blanco. Excelente.<br/>Article 2: Gymboree. Shirt.<br/>Azul, Verde & Gris. Buen Estado."
+  },
+  {
+     "id": "glv-000054",
+     "name": "Bodysuit Set",
+     "brand": "Gymboree & The Children's Place ",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "6.99",
+     "images": ["000054-1.jpg"],
+     "description": "Bodysuit Set. Algodón<br/>Article 1:  The Children's Place. Bodysuit <br/>Azul & Gris. Excelente.<br/>Article 2: Gymboree. Bodysuit <br/>Azul, Gris & Yellow. Buen Estado."
+  },
+  {
+     "id": "glv-000055",
+     "name": "Cute Shirt & Bodysuit Set",
+     "brand": "Gymboree & Old Navy",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "3 Meses",
+     "price": "7.99",
+     "images": ["000055-1.jpg"],
+     "description": "Cute Shirt & Bodysuit Set. Algodón<br/>Article 1: Gymboree. Shirt<br/>Café & Beige. Casi Nuevo.<br/>Article 2: Old Navy. Bodysuit <br/>Azul & Gris. Excelente"
+  },
+  {
+     "id": "glv-000056",
+     "name": "Leggings & Sweatshirt Set",
+     "brand": "Gymboree & Child of Mine",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "6 Meses",
+     "price": "7.99",
+     "images": ["000056-1.jpg"],
+     "description": "Leggings & Sweatshirt Set<br/>Article 1: Gymboree. Leggings. <br/>Beige, Maroon. Algodón. Casi Nuevo.<br/>Article 2: Child of Mine. Shirt. <br/>Beige, Rosa & Blanco. <br/>Polyester. Excelente<br/>"
+  },
+  {
+     "id": "glv-000057",
+     "name": "Bodysuit Set",
+     "brand": "",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "6 Meses",
+     "price": "5.99",
+     "images": ["000057-1.jpg"],
+     "description": "Bodysuit Set.<br/>Article 1: Just One You. Azul Claro & Blanco. <br/>Article 2: Faded Glory. Gris<br/>Article 3: Just One You. Azul Claro, Gris & Blanco. <br/>Article 4: Carter's. Azul"
+  },
+  {
+     "id": "glv-000058",
+     "name": "T-shirt",
+     "brand": "Tommy Hilfiger",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "8",
+     "price": "7.99",
+     "images": ["000058-1.jpg"],
+     "description": "Camiseta. Amarilla"
+  },
+  {
+     "id": "glv-000059",
+     "name": "Tank Top",
+     "brand": "Faded Glory",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "8",
+     "price": "5.99",
+     "images": ["000059-1.jpg", "000059-2.jpg"],
+     "description": "Camiseta Tirante. <br/>Azul con Rayas Horizontales decorativas Rojo-Gris-Truqueza."
+  },
+  {
+     "id": "glv-000060",
+     "name": "Skirt & Shorts Set",
+     "brand": "Princess Espression & Midwood",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "24 Meses & One Size",
+     "price": "10.99",
+     "images": ["000060-1.jpg", "000060-2.jpg", "000060-3.jpg"],
+     "description": "Skirt & Shorts Set<br/>Article 1: T-shirt. Princess Espression. <br/>One Size. Nuevo.<br/>Article 2: Shorts. Midwood. 24 Meses. <br/>Estampado Flores Tonos Rosa & Negro.<br/>Casi Nuevo."
+  },
+  {
+     "id": "glv-000061",
+     "name": "Shirt Set",
+     "brand": "The Children's Place",
+     "condition": "Buen Estado",
+     "category": "Niña",
+     "size": "2/2T",
+     "price": "7.99",
+     "images": ["000061-1.jpg"],
+     "description": "T-shirt & Shorts Set. <br/>The Children's Place. Algodón<br/>Article 1: Shirt. Rosado.<br/>Article 2: Shirt. Purpura."
+  },
+  {
+     "id": "glv-000062",
+     "name": "T-shirt & Shorts Set",
+     "brand": "Minions & Garanimals",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "7.99",
+     "images": ["000062-1.jpg"],
+     "description": "T-shirt & Shorts Set<br/>Article 1: T-shirt. Minions. 4/4T<br/>Excelente Estado.<br/>Article 2: Shorts. Garanimals. 5/5T. <br/>Cuadros Tonos Azules & Anaranjado.<br/>Muy Usado.<br/>"
+  },
+  {
+     "id": "glv-000063",
+     "name": "Pants",
+     "brand": "babyGap",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "7.99",
+     "images": ["000063-1.jpg", "000063-2.jpg"],
+     "description": "Pantalón Tipo Legging. <br/>Negro. Algodón, Polyester, Spandex"
+  },
+  {
+     "id": "glv-000064",
+     "name": "Pants",
+     "brand": "Cat & Jack",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "6.99",
+     "images": ["000064-1.jpg"],
+     "description": "Pantalón Casual Café & Pretina Gris"
+  },
+  {
+     "id": "glv-000065",
+     "name": "Shorts & Shirt Set",
+     "brand": "Faded Glory",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "6.99",
+     "images": ["000065-1.jpg"],
+     "description": "Shorts & Shirt Set<br/>Article 1: Shorts. Faded Glory. Azul. Muy Usado<br/>Article 2: Shirt. Old Navy. Excelente Estado.<br/>Camisa Manga Corta. <br/>Cuadros Azul & Blanco"
+  },
+  {
+     "id": "glv-000066",
+     "name": "Pantalón ",
+     "brand": "OshKosh B'gosh",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "3/3T",
+     "price": "6.99",
+     "images": ["000066-1.jpg", "000066-2.jpg"],
+     "description": "Pantalón Casual Beige"
+  },
+  {
+     "id": "glv-000067",
+     "name": "Jeans",
+     "brand": "Freestyle Revolution",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "4.99",
+     "images": ["000067-1.jpg", "000067-2.jpg"],
+     "description": "Jeans Azul"
+  },
+  {
+     "id": "glv-000068",
+     "name": "Pantalones Deportivos",
+     "brand": "Gap",
+     "condition": "Casi Nuevo",
+     "category": "Unisex",
+     "size": "5/5T",
+     "price": "7.99",
+     "images": ["000068-1.jpg"],
+     "description": "Sweatpants. Pantalón Tipo Buzo, Gris"
+  },
+  {
+     "id": "glv-000069",
+     "name": "Dress Pants",
+     "brand": "H&M",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "3/3T",
+     "price": "7.99",
+     "images": ["000069-1.jpg"],
+     "description": "Pantalón de Vestir, Negro, Algodón & Polyester"
+  },
+  {
+     "id": "glv-000070",
+     "name": "Sweater",
+     "brand": "BabyGap",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "2 Años",
+     "price": "7.99",
+     "images": ["000070-1.jpg", "000070-2.jpg"],
+     "description": "Sweater gris de puntos"
+  },
+  {
+     "id": "glv-000071",
+     "name": "Jeans & Hoodie Set ",
+     "brand": "Old Navy & Carter's",
+     "condition": "Excelente",
+     "category": "Niña",
+     "size": "3/3T",
+     "price": "8.99",
+     "images": ["000071-1.jpg"],
+     "description": "Jeans & Hoodie Set <br/>Article 1: Old Navy. Jeans. Excelente.<br/>Article 2: Carter's. Hoodie. <br/>Animal Print. Excelente.<br/>"
+  },
+  {
+     "id": "glv-000072",
+     "name": "Vestido",
+     "brand": "Zara Kids",
+     "condition": "Casi Nuevo",
+     "category": "Niña",
+     "size": "5-6 Años",
+     "price": "12.99",
+     "images": ["000072-1.jpg"],
+     "description": "Vestido estilo Denim, dos tonos"
+  },
+  {
+     "id": "glv-000073",
+     "name": "Sudadera",
+     "brand": "The Children's Place",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "6.99",
+     "images": ["000073-1.jpg"],
+     "description": "Rayas negras con verde"
+  },
+  {
+     "id": "glv-000074",
+     "name": "Shirt ",
+     "brand": "The Children's Place",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "5/5T",
+     "price": "7.99",
+     "images": ["000074-1.jpg"],
+     "description": "Camisa Maga Corto, cuadros en tono verde"
+  },
+  {
+     "id": "glv-000075",
+     "name": "Shirt Set",
+     "brand": "Conjunto Camisetas",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "3/3T",
+     "price": "7.99",
+     "images": ["000075-1.jpg"],
+     "description": "Camisetas Manga Larga. <br/>Algodón & Polyester<br/>Article 1: Amarillo, Garanimals<br/>Article 2: Gris Carter's"
+  },
+  {
+     "id": "glv-000076",
+     "name": "Shirt",
+     "brand": "Champs",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "5/5T",
+     "price": "5.99",
+     "images": ["000076-1.jpg"],
+     "description": "Camiseta, cuadros tonos azules"
+  },
+  {
+     "id": "glv-000077",
+     "name": "Shorts",
+     "brand": "Wonder Kids",
+     "condition": "Buen Estado",
+     "category": "Niño",
+     "size": "3/3T",
+     "price": "4.99",
+     "images": ["000077-1.jpg"],
+     "description": "Short Verde Claro & Gris"
+  },
+  {
+     "id": "glv-000078",
+     "name": "Vest",
+     "brand": "Gymboree",
+     "condition": "Excelente",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "7.99",
+     "images": ["000078-1.jpg"],
+     "description": "Chaleco Negro & Gris"
+  },
+  {
+     "id": "glv-000079",
+     "name": "T-shirt",
+     "brand": "Crusher",
+     "condition": "Casi Nuevo",
+     "category": "Niño",
+     "size": "4/4T",
+     "price": "7.99",
+     "images": ["000079-1.jpg"],
+     "description": "Camiseta Negra, Algodón"
   },
   {
      "id": "glv-000080",
@@ -403,7 +898,7 @@
      "category": "Niño",
      "size": "4/4T",
      "price": "6.99",
-     "images": ["000082-1.jpg"],
+     "images": ["000082-1.jpg", "000082-2.jpg"],
      "description": "Pantalón Algodón, Azul"
   },
   {
@@ -425,7 +920,7 @@
      "category": "Niño",
      "size": "4/4T",
      "price": "14.99",
-     "images": ["000084-1.jpg"],
+     "images": ["000084-1.jpg", "000084-2.jpg"],
      "description": "Sweater Gris & Azul"
   },
   {
@@ -436,7 +931,7 @@
      "category": "Niño",
      "size": "3/3T",
      "price": "11.99",
-     "images": ["000085-1.jpg"],
+     "images": ["000085-1.jpg", "000085-2.jpg"],
      "description": "Jeans Azul, Mezclilla"
   },
   {
@@ -446,20 +941,20 @@
      "condition": "Nuevo",
      "category": "Niño",
      "size": "18 Meses",
-     "price": "8.99",
-     "images": ["000086-1.jpg"],
+     "price": "10.99",
+     "images": ["000086-1.jpg", "000086-2.jpg"],
      "description": "Romper Color Azul Claro, "
   },
   {
      "id": "glv-000087",
-     "name": "Sweatpants",
+     "name": "Pantalón Deportivo",
      "brand": "Joe Boxer",
      "condition": "Buen Estado",
      "category": "Niño",
      "size": "5/5T",
      "price": "5.99",
-     "images": ["000087-1.jpg"],
-     "description": "Pantalón Gris, Algodón, Polyester"
+     "images": ["000087-1.jpg", "000087-2.jpg"],
+     "description": "Sweatpants. Pantalón Deportivo Gris, Algodón, Polyester"
   },
   {
      "id": "glv-000088",
@@ -534,7 +1029,7 @@
      "condition": "Nuevo",
      "category": "Niño",
      "size": "24m",
-     "price": "14.99",
+     "price": "16.99",
      "images": ["000094-1.jpg"],
      "description": "Color amarillo"
   },
@@ -545,7 +1040,7 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "4t",
-     "price": "9.99",
+     "price": "11.99",
      "images": ["000095-1.jpg"],
      "description": "Color Blanco, manga larga"
   },
@@ -556,7 +1051,7 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "3t",
-     "price": "9.99",
+     "price": "11.99",
      "images": ["000096-1.jpg"],
      "description": "Color Azul, manga corta"
   },
@@ -567,7 +1062,7 @@
      "condition": "Nuevo",
      "category": "Niña",
      "size": "3t",
-     "price": "9.99",
+     "price": "11.99",
      "images": ["000097-1.jpg"],
      "description": "Color rosado, manga corta"
   }

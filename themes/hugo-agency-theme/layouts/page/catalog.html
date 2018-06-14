@@ -68,7 +68,7 @@
                             <h4 class="group inner list-group-item-heading">
                                 {{ .name }} <span class="badge badge-info">{{ .category }}</span> </h4>
                             <p class="group inner list-group-item-text">
-                                {{ .description }}</p>
+                                {{ .description | safeHTML }}</p>
                             <p class="group inner list-group-item-text">
                                 <b>Marca</b>: {{ .brand }}</p>
                             <p class="group inner list-group-item-text">
@@ -85,7 +85,7 @@
                                     data-item-id="{{ .id }}"
                                     data-item-name="{{ .name }}"
                                     data-item-price="{{ .price }}"
-                                    data-item-description="{{ .description }}"
+                                    data-item-description="{{ .description | safeHTML }}"
                                     data-item-image="{{ "/img/products/" | absURL }}{{ index .images 0 }}"
                                     data-item-url="{{ $URL | absURL }}">
                                     Agregar al Carrito</a>
